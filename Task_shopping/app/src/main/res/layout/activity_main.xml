@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="task.task_shopping.MainActivity"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="64dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@mipmap/gotologo"
+                android:id="@+id/imageView2"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true" />
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:background="@color/grey"
+                android:layout_alignParentBottom="true"
+                android:layout_height="1dp"></LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp">
+
+        <task.task_shopping.NeologyDecoLightTextView
+            android:text="Welcome to Go-To skin care's fast"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView1"
+            android:fontFamily="sans-serif"
+            android:textSize="18sp"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center_horizontal"
+            android:textColor="@color/black" />
+
+        <task.task_shopping.NeologyDecoLightTextView
+            android:text="ordering app. Please login with"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView2"
+            android:textSize="18sp"
+            android:fontFamily="sans-serif"
+            android:layout_gravity="center"
+            android:layout_marginTop="3dp"
+            android:textColor="@color/black" />
+
+        <task.task_shopping.NeologyDecoLightTextView
+            android:text="your Goconut profile below."
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView3"
+            android:textSize="18sp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="3dp"
+            android:textColor="@color/black" />
+
+        <task.task_shopping.NeologyDecoTextView
+            android:text="EMAIL ADDRESS"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView4"
+            android:textSize="14sp"
+            android:layout_marginTop="30dp"
+            android:textColor="@color/grey" />
+
+
+        <task.task_shopping.NeologyDecoMeEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:ems="10"
+            android:textColor="@android:color/black"
+            android:textSize="17sp"
+            android:id="@+id/editText3"
+            android:backgroundTint="@color/grey"
+            android:textColorHint="@color/black"
+            android:hint="test@test.com" />
+
+        <task.task_shopping.NeologyDecoBoldTextView
+            android:text="GOCOUNT PASSWORD"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView5"
+            android:textSize="14sp"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/grey" />
+
+
+        <task.task_shopping.NeologyDecoMeEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:textColor="@color/black"
+            android:textSize="17sp"
+            android:id="@+id/editText4"
+            android:backgroundTint="@color/grey"
+            android:inputType="textPassword"
+            android:hint="********" />
+
+        <task.task_shopping.NeologyDecoLightTextView
+            android:text="Forget passwrd"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:id="@+id/forget_button"
+            android:textSize="14sp"
+            android:background="@null"
+            android:textColor="@color/grey"
+            android:layout_gravity="right"
+            android:textAllCaps="false" />
+
+        <task.task_shopping.NeologyDecoBoldButton
+            android:text="Sign In"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/button2"
+            android:textSize="25sp"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:background="@drawable/round_button"
+            android:textAllCaps="false"
+            android:layout_marginTop="90dp" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center_horizontal">
+
+            <task.task_shopping.NeologyDecoLightTextView
+                android:text="JUST BROWSING?"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView6"
+                android:textColor="@color/grey" />
+
+            <task.task_shopping.NeologyDecoLightTextView
+                android:text="TROP ON IN AS A GUEST"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView8"
+                android:layout_weight="1"
+                android:layout_marginLeft="5dp"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center_horizontal">
+
+            <task.task_shopping.NeologyDecoLightTextView
+                android:text="NOT A GOCONUT?"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textview7"
+                android:textColor="@color/grey" />
+
+            <task.task_shopping.NeologyDecoLightTextView
+                android:text="JOIN NOW!"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/sign_up"
+                android:layout_weight="1"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:layout_marginLeft="5dp"
+                android:textAllCaps="true" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>

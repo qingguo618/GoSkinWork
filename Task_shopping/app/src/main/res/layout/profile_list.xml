@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <task.task_shopping.NeologyDecoTextView
+        android:text="EMAIL ADDRESS"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView4"
+        android:textSize="14sp"
+        android:layout_marginTop="15dp"
+        android:textColor="@color/grey" />
+
+    <task.task_shopping.NeologyDecoMeEditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:textColor="@color/grey"
+        android:textSize="17sp"
+        android:id="@+id/editText3"
+        android:layout_marginTop="4dp"
+        android:lines="@android:integer/status_bar_notification_info_maxnum" />
+
+</LinearLayout>
