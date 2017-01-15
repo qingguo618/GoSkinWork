@@ -5,6 +5,8 @@ package task.task_shopping.activity;
  */
 
 
+// Test
+
 public class NewsItem {
     private String headline;
 
