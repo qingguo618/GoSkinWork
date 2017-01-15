@@ -11,6 +11,8 @@ import java.util.ArrayList;
 
 import task.task_shopping.R;
 
+// add comment for testing Git
+
 /**
  * Created by 201612221434 on 1/5/2017.
  */
