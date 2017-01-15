@@ -12,6 +12,8 @@ import android.widget.EditText;
 import task.task_shopping.R;
 import task.task_shopping.utils.Common;
 
+// test comment
+
 public class MainActivity extends AppCompatActivity {
 
     private EditText text;
