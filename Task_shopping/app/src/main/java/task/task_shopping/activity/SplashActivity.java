@@ -12,6 +12,8 @@ import task.task_shopping.R;
  */
 
 
+// Test
+
 public class SplashActivity extends Activity {
 
     // Splash screen timer
