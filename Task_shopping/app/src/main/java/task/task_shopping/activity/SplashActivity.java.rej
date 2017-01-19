@@ -1,0 +1,17 @@
+diff a/Task_shopping/app/src/main/java/task/task_shopping/activity/SplashActivity.java b/Task_shopping/app/src/main/java/task/task_shopping/activity/SplashActivity.java	(rejected hunks)
+@@ -12,6 +12,8 @@
+  */
+ 
+ 
++// Test
++
+ public class SplashActivity extends Activity {
+ 
+     // Splash screen timer
+@@ -41,4 +43,4 @@
+             }
+         }, SPLASH_TIME_OUT);
+     }
+-}
+\ No newline at end of file
++}
